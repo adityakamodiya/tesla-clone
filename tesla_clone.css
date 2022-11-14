@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    font-family: 'roboto', sans serif;
+    padding: 0%;
+    box-sizing: border-box;
+
+}#wrapper{
+    width: 100%; 
+    height: 100vh;
+    background-image: url(model-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 16px 1.5rem;
+    justify-content: space-between;
+}
+.header2 ul{display: flex;
+    justify-content: space-between;
+    /* padding: 0% 1rem; */
+}
+.header2 ul li{
+    padding: 0 1rem;
+    list-style: none;
+}.header2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.header3 ul{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 1rem; */
+}
+.header3 ul li{
+    padding: 0 1rem;
+    list-style: none;
+}
+.header3 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.middle {
+    display: flex;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.bottom {
+    display: flex;
+    margin-top: 68px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.bottom a {
+    text-decoration: none;
+    display: block;
+    margin: 0px 7px;
+    margin-bottom: 152px;
+    /* color: wheat; */
+    /* background-color: black; */
+    /* border-radius: 7px; */
+    padding: 8px 45px;
+    border: 1px solid black;
+}
+#wrapper2{
+    background-image: url(model-y.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+#wrapper3{
+    background-image: url(model-s.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+#wrapper4{
+    background-image: url(model-x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+#wrapper5{
+    background-image: url(solar-panel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+#wrapper6{
+    background-image: url(solar-roof.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+#wrapper7{
+    background-image: url(accessories.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 41px;
+}
+.rightbtn, .leftbtn{
+    border-radius: 5px;
+}
+.rightbtn {
+    border-radius: 28px;
+    background-color: rgba(222, 205, 205, 0.847);
+    color: black;
+}
+.leftbtn{
+    border-radius: 28px;
+    background-color: rgba(42, 25, 25, 0.42);
+    color: black;
+}
